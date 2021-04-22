@@ -12,10 +12,10 @@ public class StatusResourceTest {
     @Test
     public void testStatusEndpoint() {
         given()
-                .when().get("/ecm-api/v1/status")
+                .when().get("/status")
                 .then()
                 .statusCode(200)
-                .body(is("ecm-api-quarkus service is running"));
+                .body(is("box-api-quarkus service is running"));
     }
 
 }

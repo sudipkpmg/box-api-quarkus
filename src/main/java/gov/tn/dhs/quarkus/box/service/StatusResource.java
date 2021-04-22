@@ -11,7 +11,7 @@ public class StatusResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String status() {
-        return "ecm-api-quarkus service is running";
+        return "box-api-quarkus service is running";
     }
 
 }
